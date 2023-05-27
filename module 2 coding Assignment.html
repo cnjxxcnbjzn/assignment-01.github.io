@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css box</title>
+    <style>
+        .flex{
+ border: 2px solid black; 
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+height: 250px;
+width: 900px;
+align-items: center;
+flex-grow: 0;
+flex-shrink: 1;
+}
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h2{ text-align: center;}
+.flex > div{
+    border: 2px solid black;
+    height: fit-content;
+    width: 250px;
+    padding-left: 15px;
+    background-color: gray;
+}
+ h5{
+    margin-top: 0px;
+    float: right;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+    </style>
+</head>
+<body>
+    <h2>Our Menu</h2>
+    <div class="flex">
+        <div>
+            <h5 style="background-color:pink;">Chicken</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, temporibus mollitia earum cupiditate architecto itaque ducimus fugit officia iste exercitationem blanditiis velodit quia.
+                </p>
+            
+        </div>
+        <div>
+            <h5 style="background-color:red ;">Beef</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+            Voluptas delectus tempore reiciendis molestiae dicta porro eveniet.<br>
+            Explicabo praesentium expedita optio neque non quisquam sunt culpa.<br>
+            </p>
+        </div>
+        <div>
+            <h5 style="background-color: rgba(255, 255, 0, 0.671) ;">Sushi</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+            Voluptas delectus tempore reiciendis molestiae dicta porro eveniet.<br>
+            Explicabo praesentium expedita optio neque non quisquam sunt culpa.<br>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
