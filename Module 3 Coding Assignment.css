@@ -1,0 +1,42 @@
+*{
+
+    margin: 0px;
+    padding: 0%;
+    /* box-sizing: content-box; */
+}
+
+nav{
+
+    background-color: gray;
+    border: 3px solid black;
+    margin: 5px;
+}
+/* ul{
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    padding-left: 20px;
+    margin: 20px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+} */
+h2,h3{
+    text-align: center;
+}
+div{
+
+    background-color: gray;
+    margin: 20px 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
